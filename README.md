@@ -6,7 +6,7 @@
 This is a simple Laravel API to Create, Show, Update, and Delete Products information including API version.
 
 ## Product 
-Product information in clude 
+Product information include 
 
  - Name
  - Quantity 
