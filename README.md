@@ -3,7 +3,7 @@
 
 
 ## About Laravel API
-This A simple Laravel API to Create, Show, Update, and Delete Products information including API version.
+This is a simple Laravel API to Create, Show, Update, and Delete Products information including API version.
 
 ## Product 
 Product information in clude 
