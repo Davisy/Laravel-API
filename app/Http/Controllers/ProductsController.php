@@ -59,7 +59,7 @@ class ProductsController extends Controller
             return $product;
 
         } else {
-            
+
             return ["message" => "product not found"];
         }
     }
@@ -96,6 +96,11 @@ class ProductsController extends Controller
     public function destroy($id)
     {
         // delete the product 
-        return Product::destroy($id);
+        if(Product::destroy($id)){
+           return ["message" => "product deleted"];
+        }else {
+
+            return ["message" => "product not found!!"];
+        }
     }
 }
