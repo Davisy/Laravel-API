@@ -13,7 +13,7 @@ Product information in clude
  - Category
 
 
-## How to set up this project
+## How To Set up This Project In Your Machine
 
 1. Clone this Repository.
 2. cd into the Directory.
